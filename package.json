@@ -1,4 +1,11 @@
 {
+    "scripts": {
+        "start": "node server.js",
+        "test": "jest",
+        "ios": "react-native run-ios",
+        "android": "cd android && ./gradlew clean && cd .. && react-native run-android"
+    },
+  
   "dependencies": {
     "bcrypt": "^5.1.0",
     "bcryptjs": "^2.4.3",
